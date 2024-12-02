@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2804579683315843927}
   - component: {fileID: 6172768748648899556}
   - component: {fileID: 2826184127326710774}
-  - component: {fileID: 8514961361107645340}
+  - component: {fileID: 7505883793399221882}
   m_Layer: 0
   m_Name: Bomba
   m_TagString: Untagged
@@ -37828,7 +37828,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 1389
+  m_VersionIndex: 1398
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -37913,25 +37913,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 811028159770426125}
   m_Mesh: {fileID: 0}
---- !u!64 &8514961361107645340
-MeshCollider:
+--- !u!114 &7505883793399221882
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 811028159770426125}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d31189f537ffe5946a2bfd779519b81d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionPrefab: {fileID: 4213893941579930367, guid: b835c894d7fc5bc4a8e5f77bca42de6d, type: 3}
+  explosionDelay: 3
