@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
         // Redondear la posición del jugador para ajustarse a la cuadrícula
         Vector3 bombPosition = new Vector3(
             Mathf.Round(transform.position.x),
-            transform.position.y,
+            0f, // Fijar Y en 0
             Mathf.Round(transform.position.z)
         );
 
