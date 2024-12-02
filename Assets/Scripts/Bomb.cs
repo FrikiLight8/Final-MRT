@@ -16,11 +16,11 @@ public class Bomb : MonoBehaviour
 
     void Explode()
     {
-        // Asegurarse de que la explosión ocurra en la misma posición que la bomba
+        // Ajustar la posición de la explosión restando 0.5 al eje X
         Vector3 explosionPosition = new Vector3(
-            Mathf.Round(transform.position.x),
-            transform.position.y,
-            Mathf.Round(transform.position.z)
+            transform.position.x - 1f, // Restar 0.5 al eje X
+            transform.position.y,       // Mantener Y
+            transform.position.z        // Mantener Z
         );
 
         // Crear la explosión en la posición ajustada
@@ -29,6 +29,7 @@ public class Bomb : MonoBehaviour
         // Destruir la bomba
         Destroy(gameObject);
     }
+
 
 }
 
