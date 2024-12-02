@@ -13,6 +13,9 @@ public class PlayerController : MonoBehaviour
     public float bombCooldown = 2f; // Tiempo de espera entre colocar bombas
     private float lastBombTime = -Mathf.Infinity; // Última vez que se colocó una bomba
 
+    [SerializeField]
+    private Transform bombSpawnPoint; // El GameObject desde el que se invocarán las bombas
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -44,11 +47,11 @@ public class PlayerController : MonoBehaviour
 
     void PlaceBomb()
     {
-        // Redondear la posición del jugador para ajustarse a la cuadrícula
+        // Usar la posición del GameObject de referencia (bombSpawnPoint) para colocar la bomba
         Vector3 bombPosition = new Vector3(
-            Mathf.Round(transform.position.x),
-            0f, // Fijar Y en 0
-            Mathf.Round(transform.position.z)
+            bombSpawnPoint.position.x, // Usar X del GameObject de referencia
+            0f,                        // Fijar Y en 0
+            bombSpawnPoint.position.z  // Usar Z del GameObject de referencia
         );
 
         // Instanciar la bomba en la posición ajustada
@@ -58,4 +61,3 @@ public class PlayerController : MonoBehaviour
         lastBombTime = Time.time;
     }
 }
-
