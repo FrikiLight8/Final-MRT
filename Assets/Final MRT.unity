@@ -2180,7 +2180,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7794092056096556308, guid: c13a18f5bba42304faf71987c74df830, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 16.86
+      value: 16.64
       objectReference: {fileID: 0}
     - target: {fileID: 7794092056096556308, guid: c13a18f5bba42304faf71987c74df830, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2942,7 +2942,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 256812376}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BombSpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
@@ -3579,7 +3579,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7794092056096556308, guid: c13a18f5bba42304faf71987c74df830, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.91
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7794092056096556308, guid: c13a18f5bba42304faf71987c74df830, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4039,7 +4039,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7794092056096556308, guid: c13a18f5bba42304faf71987c74df830, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.299999
+      value: 12.34
       objectReference: {fileID: 0}
     - target: {fileID: 7794092056096556308, guid: c13a18f5bba42304faf71987c74df830, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4708,7 +4708,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7794092056096556308, guid: c13a18f5bba42304faf71987c74df830, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.49
+      value: 6.39
       objectReference: {fileID: 0}
     - target: {fileID: 7794092056096556308, guid: c13a18f5bba42304faf71987c74df830, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4850,7 +4850,7 @@ PrefabInstance:
       objectReference: {fileID: 1609331523}
     - target: {fileID: 7794092056096556308, guid: c13a18f5bba42304faf71987c74df830, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.9199996
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7794092056096556308, guid: c13a18f5bba42304faf71987c74df830, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5676,7 +5676,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 627750673}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5806,7 +5806,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7794092056096556308, guid: c13a18f5bba42304faf71987c74df830, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 16.66
+      value: 16.57
       objectReference: {fileID: 0}
     - target: {fileID: 7794092056096556308, guid: c13a18f5bba42304faf71987c74df830, type: 3}
       propertyPath: m_LocalRotation.w
@@ -15196,7 +15196,7 @@ GameObject:
   - component: {fileID: 1619911987}
   - component: {fileID: 1619911990}
   - component: {fileID: 1619911991}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Capsula
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16123,7 +16123,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7794092056096556308, guid: c13a18f5bba42304faf71987c74df830, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.43
+      value: 12.34
       objectReference: {fileID: 0}
     - target: {fileID: 7794092056096556308, guid: c13a18f5bba42304faf71987c74df830, type: 3}
       propertyPath: m_LocalRotation.w

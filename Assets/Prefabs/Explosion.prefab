@@ -768,7 +768,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86626d618a7ee7743ac366f88d52c44d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionDuration: 1
+  explosionDuration: 0.5
   targetLayer: Destructible
   explosionRadius: 2.3
-  explosionVisualPrefab: {fileID: 8918618978716168726, guid: 8a24dd63122b3df43a9b4a8734bfcea6, type: 3}
