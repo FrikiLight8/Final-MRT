@@ -18,9 +18,9 @@ public class Bomb : MonoBehaviour
     {
         // Ajustar la posición de la explosión restando 0.5 al eje X
         Vector3 explosionPosition = new Vector3(
-            transform.position.x - 1f, // Restar 0.5 al eje X
+            transform.position.x + 0.5f, // Restar 0.5 al eje X
             transform.position.y,       // Mantener Y
-            transform.position.z        // Mantener Z
+            transform.position.z + 0.5f // Mantener Z
         );
 
         // Crear la explosión en la posición ajustada

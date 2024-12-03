@@ -7,14 +7,24 @@ public class Explosion : MonoBehaviour
     public float explosionDuration = 1f; // Tiempo que dura la explosión antes de desaparecer
     public string targetLayer = "Destructible"; // Nombre de la capa a destruir
     public float explosionRadius = 2f; // Radio de la explosión
+    public GameObject explosionVisualPrefab; // Prefab de la visualización de la explosión
+
+    private GameObject explosionVisual;
 
     void Start()
     {
+        // Crear la visualización del radio de la explosión
+        explosionVisual = Instantiate(explosionVisualPrefab, transform.position, Quaternion.identity);
+        explosionVisual.transform.localScale = new Vector3(explosionRadius * 2, explosionRadius * 2, explosionRadius * 2);
+
         // Detectar y destruir objetos en el radio de la explosión
         Explode();
 
         // Destruir la explosión después de su duración
         Destroy(gameObject, explosionDuration);
+
+        // Destruir la visualización del radio después de la duración
+        Destroy(explosionVisual, explosionDuration);
     }
 
     void Explode()
